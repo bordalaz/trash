@@ -19,7 +19,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	}
-
+/* 
 .header:before {
 	content: "";
 	width: 100%;
@@ -27,7 +27,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+} */
 
 .header__container {
 	box-sizing: border-box;
@@ -228,7 +228,7 @@ body {
 @media (min-width: 1301px) {
   .header {
     font-size: 16px;
-    background-image: url(/BG__1900.png);
+    background-image: url(../BG__1900.png);
   }
 
   .menu__button {
@@ -239,7 +239,7 @@ body {
 @media (min-width: 641px) and (max-width: 1300px) {
   .header {
     font-size: 12px;
-    background-image: url(/BG__1200.png);
+    background-image: url(../BG__1200.png);
   }
 
   .menu__button {
@@ -250,6 +250,6 @@ body {
 @media (max-width: 640px) {
   .header {
     font-size: 8px;
-    background-image: url(/BG__600.png)
+    background-image: url(../BG__600.png)
   }
 }
